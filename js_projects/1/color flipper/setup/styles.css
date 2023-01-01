@@ -1,0 +1,24 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: rgb(227, 224, 224);
+}
+
+.navbar li{
+  float: left;
+  list-style: none;
+  padding: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.navbar ul{
+  overflow: auto;
+}
+
+
