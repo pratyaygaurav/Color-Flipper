@@ -7,12 +7,16 @@
 
 .navbar{
   background-color: rgb(227, 224, 224);
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  
 }
 
 .navbar li{
   float: left;
   list-style: none;
-  padding: 5px;
+  padding: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
@@ -20,5 +24,46 @@
 .navbar ul{
   overflow: auto;
 }
+
+#CF
+{
+  cursor: pointer;
+  
+}
+
+.list1
+{
+  cursor: pointer;
+ 
+}
+
+.flip
+{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  text-align: center;
+}
+
+.heading
+{
+  padding: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+
+}
+
+.btn
+{
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+
 
 
