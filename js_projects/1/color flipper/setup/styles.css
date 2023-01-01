@@ -25,6 +25,12 @@
   overflow: auto;
 }
 
+#pg
+{
+  color: cadetblue;
+  font-size: 18px;
+}
+
 #CF
 {
   cursor: pointer;
@@ -52,18 +58,31 @@
   border-style: solid;
   border-radius: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: black;
+  color: white;
   
 
 }
 
-.btn
+#btn
 {
   cursor: pointer;
   border-radius: 5px;
   padding: 5px;
   margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: white;
+  font-size: 14px;
 }
 
 
-
-
+#btn:hover{
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 6px;
+  border-color: black;
+}
