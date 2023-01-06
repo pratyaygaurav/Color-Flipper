@@ -7,4 +7,5 @@ bton.addEventListener("click",function(){
   document.getElementById("color").innerHTML = randomColor;
    
     document.body.style.backgroundColor = randomColor;
+   //hello
 });
